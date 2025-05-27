@@ -1,4 +1,4 @@
-module github.com/kevincobain2000/email_extractor
+module github.com/jtriclin/email_extractor
 
 go 1.21.4
 
@@ -8,6 +8,7 @@ require (
 	github.com/headzoo/surf v1.0.1
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/sirupsen/logrus v1.9.3
+	github.com/corpix/uarand v0.2.0
 )
 
 require (

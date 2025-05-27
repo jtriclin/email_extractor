@@ -13,6 +13,7 @@ import (
 	"github.com/headzoo/surf"
 	"github.com/headzoo/surf/browser"
 	"github.com/labstack/echo/v4"
+	"github.com/corpix/uarand"
 )
 
 type CrawlOptions struct {
@@ -47,7 +48,7 @@ func NewHTTPChallenge(opts ...CrawlOption) *HTTPChallenge {
 		}
 	}
 	b := surf.NewBrowser()
-	b.SetUserAgent("GO kevincobain2000/email_extractor")
+	b.SetUserAgent(uarand.GetRandom())
 	b.SetTimeout(time.Duration(opt.TimeoutMillisecond) * time.Millisecond)
 
 	return &HTTPChallenge{
