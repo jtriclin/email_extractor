@@ -13,7 +13,6 @@ import (
 	"github.com/headzoo/surf"
 	"github.com/headzoo/surf/browser"
 	"github.com/labstack/echo/v4"
-	"github.com/corpix/uarand"
 )
 
 type CrawlOptions struct {
@@ -48,7 +47,7 @@ func NewHTTPChallenge(opts ...CrawlOption) *HTTPChallenge {
 		}
 	}
 	b := surf.NewBrowser()
-	b.SetUserAgent(uarand.GetRandom())
+	b.SetUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36")
 	b.SetTimeout(time.Duration(opt.TimeoutMillisecond) * time.Millisecond)
 
 	return &HTTPChallenge{

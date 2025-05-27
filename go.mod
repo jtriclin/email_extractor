@@ -4,11 +4,12 @@ go 1.21.4
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
+	github.com/corpix/uarand v0.2.0
 	github.com/gookit/color v1.5.4
 	github.com/headzoo/surf v1.0.1
+	github.com/jtriclin/email_extractor v0.0.0-20250419040408-4a81053230dc
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/corpix/uarand v0.2.0
 )
 
 require (

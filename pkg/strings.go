@@ -24,7 +24,7 @@ func IsSameDomain(u1, u2 string) bool {
 		return false
 	}
 
-	return parsedURL1.Host == parsedURL2.Host
+	return strings.Contains(parsedURL2.Host, parsedURL1.Host)
 }
 
 func URLDepth(u, referenceURL string) int {

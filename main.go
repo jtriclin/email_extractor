@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gookit/color"
-	"github.com/kevincobain2000/email_extractor/pkg"
+	"github.com/jtriclin/email_extractor/pkg"
 )
 
 var version = "dev"

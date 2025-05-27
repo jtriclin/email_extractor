@@ -2,6 +2,8 @@ github.com/PuerkitoBio/goquery v1.8.1 h1:uQxhNlArOIdbrH1tr0UXwdVFgDcZDrZVdcpygAc
 github.com/PuerkitoBio/goquery v1.8.1/go.mod h1:Q8ICL1kNUJ2sXGoAhPGUdYDJvgQgHzJsnnd3H7Ho5jQ=
 github.com/andybalholm/cascadia v1.3.1 h1:nhxRkql1kdYCc8Snf7D5/D3spOX+dBgjA6u8x004T2c=
 github.com/andybalholm/cascadia v1.3.1/go.mod h1:R4bJ1UQfqADjvDa4P6HZHLh/3OxWWEqc0Sk8XGwHqvA=
+github.com/corpix/uarand v0.2.0 h1:U98xXwud/AVuCpkpgfPF7J5TQgr7R5tqT8VZP5KWbzE=
+github.com/corpix/uarand v0.2.0/go.mod h1:/3Z1QIqWkDIhf6XWn/08/uMHoQ8JUoTIKc2iPchBOmM=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -11,6 +13,8 @@ github.com/headzoo/surf v1.0.1 h1:wk3+LT8gjnCxEwfBJl6MhaNg154En5KjgmgzAG9uMS0=
 github.com/headzoo/surf v1.0.1/go.mod h1:/bct0m/iMNEqpn520y01yoaWxsAEigGFPnvyR1ewR5M=
 github.com/headzoo/ut v0.0.0-20181013193318-a13b5a7a02ca h1:utFgFwgxaqx5OthzE3DSGrtOq7rox5r2sxZ2wbfTuK0=
 github.com/headzoo/ut v0.0.0-20181013193318-a13b5a7a02ca/go.mod h1:8926sG02TCOX4RFRzIMFIzRw4xuc/TwO2gtN7teMJZ4=
+github.com/kevincobain2000/email_extractor v0.0.0-20250419040408-4a81053230dc h1:j4HCiMTdSMWQavSWw4QOHLhyxokS+JIMo/nsc+qclqw=
+github.com/kevincobain2000/email_extractor v0.0.0-20250419040408-4a81053230dc/go.mod h1:HXqy7DEEcvT95Qu/NAiq+bErj7mBCUxJAg8zUsJPrkM=
 github.com/labstack/echo/v4 v4.12.0 h1:IKpw49IMryVB2p1a4dzwlhP1O2Tf2E0Ir/450lH+kI0=
 github.com/labstack/echo/v4 v4.12.0/go.mod h1:UP9Cr2DJXbOK3Kr9ONYzNowSh7HP0aG0ShAyycHSJvM=
 github.com/labstack/gommon v0.4.2 h1:F8qTUNXgG1+6WQmqoUWnz8WiEU60mXVVw0P4ht1WRA0=
