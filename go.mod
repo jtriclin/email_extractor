@@ -1,10 +1,9 @@
 module github.com/jtriclin/email_extractor
 
-go 1.23
+go 1.21.4
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
-	github.com/corpix/uarand v0.2.0
 	github.com/gookit/color v1.5.4
 	github.com/headzoo/surf v1.0.1
 	github.com/labstack/echo/v4 v4.12.0
