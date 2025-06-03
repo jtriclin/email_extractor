@@ -272,6 +272,11 @@ func (hc *HTTPChallenge) Crawl(url string) []string {
 				return
 			}
 		}
+
+		if (len(href) > 3072) {
+			return;
+		}
+
 		urls = append(urls, href)
 	})
 	urls = UniqueStrings(urls)
